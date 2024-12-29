@@ -3,4 +3,8 @@ project(crud)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(crud main.cpp)
+add_executable(crud source/main.cpp
+        source/logic/crud.cpp
+        source/logic/crud.h
+        source/index/index.h
+        source/index/index.cpp)
